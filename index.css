@@ -1,0 +1,124 @@
+body {color: black;
+    background-color: white;}
+h1 {font-size: 20px;}
+p {font-size: 12px;}
+p {color:green}
+.testi2 {border-style: solid;
+border-width: 2px;
+width: 100px;
+height: 100px;
+padding: 10px; margin: 10px}
+.testi3 {border: solid black; border-radius: 20px; background-color: rgb(77, 145, 161); padding: 8px; margin: 8px}
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 10px 6px 10px 35px;
+    background: #eee;
+    font-size: 16px;
+    transition: 0.2s;
+  
+    
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  
+  ul li:nth-child(odd) {
+    background: #f9f9f9;
+  }
+  
+  
+  ul li:hover {
+    background: #ddd;
+  }
+  
+  
+  ul li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+  }
+  
+  
+  ul li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 8px;
+    left: 14px;
+    transform: rotate(45deg);
+    height: 13px;
+    width: 5px;
+  }
+  
+  
+  .close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px 14px 10px 14px;
+  }
+  
+  .close:hover {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  
+  .header {
+    background-color: rgb(77, 145, 161);
+    padding: 18px 45px;
+    color: white;
+    text-align: center;
+  }
+  
+  
+  .header:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  input {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 75%;
+    padding: 8px;
+    float: left;
+    font-size: 14px;
+  }
+  
+  
+  .addBtn {
+    padding: 10px;
+    width: 25%;
+    background: #3fb2e7;
+    color: rgb(19, 12, 12);
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+  }
+  
+  .addBtn:hover {
+    background-color: #bbb;
+  }
